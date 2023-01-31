@@ -22,7 +22,7 @@ return(
         <div className="md:flex md:items-center text-white">
             <Link className="md:ml-5" href='/'><FaGithub/></Link>
             <Link className="md:ml-5" href='/'><FaLinkedinIn/></Link>
-            <Link className="md:ml-5" href='/'><FaInstagram/></Link>
+            <Link className="md:ml-5" href='https://www.instagram.com/rishabh_kumar_1741/'><FaInstagram/></Link>
            
         </div>
      

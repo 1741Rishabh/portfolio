@@ -83,7 +83,7 @@ export default function Home(props) {
         <h1 className='text-6xl font-medium font-serif mb-4'>
           Projects
         </h1>
-        <div className='grid grid-cols-3 gap-4  gap-y-8'>
+        <div className='grid grid-cols-1 gap-1 gap-y-4 md:grid md:grid-cols-3 md:gap-4  md:gap-y-8'>
           {arrdata}
         </div>
 
