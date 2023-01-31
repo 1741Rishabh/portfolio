@@ -47,17 +47,17 @@ export default function Home(props) {
   })
 
   return (
-    <>
+    <div>
       {/* header or navbar  */}
 
       <PHeader />
 
-      {/* greeting message  */}
+
       <div className='relative'>
         <svg height="100%" width="100%" viewBox="0 0 100 50">
           <defs>
             <linearGradient id="geffect">
-              <stop offset="0%" stopColor="#a619a3" />
+              <stop offset="0%" stopColor="#150e8bl" />
               <stop offset="100%" stopColor="#8f1bb4" />
             </linearGradient>
           </defs>
@@ -65,25 +65,24 @@ export default function Home(props) {
           <path className={Homemodulecss.svgcolour} d="m 0 20 c 0 0 ,20 40 ,100 0" />
         </svg>
 
-        <div className=' absolute top-10 z-20 mx-24  text-white  w-9/12'>
+        <div className=' absolute top-0 ml-3 md:top-10 z-20 md:mx-24  text-white  md:w-9/12'>
 
-          <div className='grid grid-cols-3 '>
-            <div className=' col-span-2 '>
+          <div className='grid grid-cols-1 md:grid md:grid-cols-3 '>
+            <div className=' md:col-span-2 '>
               <WelcomeScreen />
             </div>
-            <div className=''>
-
+            <div className='hiddle md:block'>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
       {/* project section  */}
-      <div className='mx-24 '>
-        <h1 className='text-6xl font-medium font-serif mb-4'>
+      <div className='md:mx-24 '>
+        <h1 className=' px-5 font-bold  md:text-6xl font-medium font-serif md:mb-4'>
           Projects
         </h1>
-        <div className='grid grid-cols-1 gap-1 gap-y-4 md:grid md:grid-cols-3 md:gap-4  md:gap-y-8'>
+        <div className='grid grid-cols-1  gap-y-4 md:grid md:grid-cols-3 md:gap-4  md:gap-y-8'>
           {arrdata}
         </div>
 
@@ -91,15 +90,15 @@ export default function Home(props) {
 
 
       {/* Technologies */}
-      <div className='mx-24 mt-10 '>
-        <h1 className='text-6xl font-medium font-serif mb-4'>
+      <div className='p-5   md:mx-24 md:mt-10 '>
+        <h1 className=' font-bold text-2xl mb-1  md:text-6xl md:font-medium font-serif md:mb-4'>
           Technologies
         </h1>
         <div className=''>
-          <p className=' font-serif text-2xl '>
+          <p className='pb-5 font-serif md:text-2xl '>
             I&#39;ve worked with a range a technologies in the web development <br></br> world. From Back-end To Desian
           </p>
-          <div className=' flex justify-between mt-10 mr-20 '>
+          <div className='sm:flex sm:flex-col  md:flex md:flex-row md:justify-between md:mt-10 md:mr-20 '>
             {arrOfTech}
           </div>
 
@@ -108,7 +107,8 @@ export default function Home(props) {
       </div>
 
       {/* About */}
-      <div className='mx-24 mt-10 '>
+      
+      {/* <div className='mx-24 mt-10 '>
         <h1 className='text-4xl font-bold font-serif mb-4'>
           About Me
         </h1>
@@ -116,11 +116,11 @@ export default function Home(props) {
           As a full stack developer, I have a strong background in web development and a passion for creating dynamic and engaging user experiences. I am experienced in a variety of programming languages such as JavaScript, Python, and Java, as well as front-end technologies like HTML, CSS, and React.js. Additionally, I have experience working with back-end technologies such as Node.js, Express, and databases such as MySQL, MongoDB and Firebase.
         </p>
 
-        {/* journey code year div */}
+       
         <div className='flex justify-between mx-20'>
           {journay}
         </div>
-      </div>
+      </div> */}
 
       {/* Personal Acomplishments */}
       {/* <div>
@@ -131,22 +131,22 @@ export default function Home(props) {
 
 
       {/* footer */}
-      <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-t-sm mt-20 '>
+      {/* <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-t-sm mt-20 '>
       <Footer/>
-      </div> 
+      </div>  */}
+
+ 
 
 
 
 
 
 
-
-
-
-
-    </>
+    </div>
+    
 
   )
+  
 }
 
 

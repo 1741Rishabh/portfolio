@@ -7,7 +7,7 @@ import { FaBeer,FaGithub,FaLinkedinIn,FaInstagram } from 'react-icons/fa';
 function PHeader()
 {
 return(    
-<nav className={`${Navbarcss.navbarcolour} ${Navbarcss.box} md:bg-blue-900 md:h-12   `}>
+<nav className={`bg-gradient-to-r from-black via-purple-900 to-pink-500   md:h-12   `}>
     <div className="flex justify-between mx-10">
         
         <div className="md:flex md:items-center">
