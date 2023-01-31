@@ -57,7 +57,7 @@ export default function Home(props) {
         <svg height="100%" width="100%" viewBox="0 0 100 50">
           <defs>
             <linearGradient id="geffect">
-              <stop offset="0%" stopColor="#150e8b" />
+              <stop offset="0%" stopColor="#a619a3" />
               <stop offset="100%" stopColor="#8f1bb4" />
             </linearGradient>
           </defs>
